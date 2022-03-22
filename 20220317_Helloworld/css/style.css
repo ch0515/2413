@@ -12,3 +12,12 @@ li {
 #le{
     color:violet;
 }
+li:nth-child(4){    /*1부터 시작*/
+    text-decoration: underline;
+}
+h2+h3{  /*h2형제중 첫번째 h3*/
+    background-color: aqua;
+}
+h2~h3{  /*h2형제중 여러 h3*/
+    font-size: 40px;
+}
