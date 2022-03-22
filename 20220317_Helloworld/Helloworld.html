@@ -5,13 +5,29 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>HelloWorld</title>
+    <style>
+        <!--우선순위 : TAG < CLASS < id <<<!-->
+        <!--우선순위 : 같은 급일 때는 위 < 아래-->
+        li {
+            color:rgb(217, 255, 0);
+        }
+        .Korea{
+            color: crimson !important;
+        }
+        .inc{
+            color: darkblue;
+        }
+        #le{
+            color:violet;
+        }
+    </style>
 </head>
 <body>
     <ul>
         <li class="Korea" id="le">유진</li>
         <li class="Korea inc">가을</li>
         <li class="japen">레이</li>
-        <li class="Korea">원영</li>
+        <li class="Korea" style="color:aliceblue">원영</li>
         <li class="Korea">리즈</li>
         <li class="Korea">이서</li>
     </ul>
