@@ -1,6 +1,9 @@
 /*우선순위 : TAG < CLASS < id <<<! -->
         <!--우선순위 : 같은 급일 때는 위 < 아래*/
         /* 우선순위 : 포괄 < 구체*/
+ul:nth-child(2){
+    background-color: hotpink;
+}
 body li {
     /* > : 자식 띄어쓰기 : 자손 */
     color:rgb(217, 255, 0);
@@ -24,3 +27,4 @@ h2+h3{  /*h2형제중 첫번째 h3*/
 h2~h3{  /*h2형제중 여러 h3*/
     font-size: 40px;
 }
+/* 찾는 요소 우클릭 > 검사 > 개발자도구 > 우클릭 > copy > copy ,,,, */
