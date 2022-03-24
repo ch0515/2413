@@ -1,14 +1,16 @@
 /*우선순위 : TAG < CLASS < id <<<! -->
         <!--우선순위 : 같은 급일 때는 위 < 아래*/
         /* 우선순위 : 포괄 < 구체*/
-li {
+body li {
+    /* > : 자식 띄어쓰기 : 자손 */
     color:rgb(217, 255, 0);
 }
 .Korea{
     color: crimson !important;
 }
-.inc{
-    color: darkblue;
+.inc,h6{
+    /* , : 함께*/
+    color: crimson;
 }
 #le{
     color:violet;
