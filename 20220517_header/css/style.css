@@ -2,9 +2,17 @@
     --red: crimson;
     --yellow: gold;
     --green: yellowgreen;
+    --font-color: #333;
 }
 *{
     box-sizing: border-box; /*크기 계산의 기준을 contents -> border*/
     margin: 0;
     padding: 0;
+}
+ul{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+
 }
