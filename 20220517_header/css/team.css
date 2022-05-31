@@ -1,0 +1,33 @@
+/* .nav-list li {
+    background-color: aqua;
+    flex-basis: 100px;
+    flex-grow: 1;
+}
+
+/* .nav-list li:nth-child(1) {
+    flex: 1 1 auto;
+}
+
+.nav-list li:nth-child(2) {
+    flex-basis: 100px;
+    flex-shrink: 2;
+}
+
+.nav-list li:nth-child(3) {
+    flex-basis: 100px;
+    flex-shrink: 1;
+}
+
+.nav-list li:nth-child(4) {
+    flex-grow: 2;
+} */
+ /* .nav-list li:nth-child(2){
+    flex-shrink: 0;
+}   */
+.nav-list li{
+    flex-grow: 0;/*기본값 : 0*/
+    flex-shrink: 0;/*기본값 : 1*/
+    flex-basis: 200px;/*기본값 : auto*/
+    flex: 0 0 200px;
+    /* border: 선두께 선모양(solid) 선색깔; */
+}
