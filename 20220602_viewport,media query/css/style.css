@@ -1,0 +1,26 @@
+body{
+    background-color: #81bef7;
+    font-size: 4rem;
+}
+/* <= 1023 : table*/
+@media screen and (max-width: 1023px){
+    body{
+        background-color: darkseagreen;
+        font-size: 2rem;
+    }
+    /*태블릿일때 2rem*/
+}
+/* <= 419px : mobile*/
+@media screen and (max-width: 419px){
+    body{
+        background-color: lightcoral;
+        font-size: 1rem;
+    }
+    
+}
+/* @media screen and(min-width: 420px){
+    모바일 부터 만들고 태븘릿
+}
+@media screen and(min-width: 1024px){
+
+} */
