@@ -110,6 +110,9 @@ nav i {
         right: 0;
         flex-direction: column;
         background-color: lightgray;
+        height: 0;
+        overflow: hidden;
+        transition: 0.2s;
     }
     .nav-item{
         padding: .5rem 1rem;/* 위 오 아 왼*/
@@ -120,6 +123,8 @@ nav i {
         color: var(--title-color);
         display: block; /* 링크의 너비: 컨텐츠 -> nav-item 만큼 늘리자 */
     }
-
+    .show-menu{
+        height: 164px;
+    }
 }
 /* mobile */
