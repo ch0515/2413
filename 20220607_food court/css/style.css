@@ -92,7 +92,7 @@ nav i {
 /* breakpoints */
 /* 2K & 4K */
 
-/* tablet css header>nav tablet*/
+/* tablet 시험문제 max-width max는 최대 600안에서는 저걸 적용한다*/
 @media screen and (max-width: 600px){/* width가 600px 이하면 아래 css 적용*/
     .nav-toggle{
         display: block;
