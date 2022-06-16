@@ -67,6 +67,9 @@ img{
 }
 header {
     background-color: var(--first-color);
+    position: fixed; /*스크롤 헤더 위치 고정*/
+    left: 0;
+    right: 0;
 }
 nav {
     height: 44px;
