@@ -116,10 +116,11 @@ h3{
 
     max-width: 300px;/* 최대 너비: 300px */
 }
+.now,
 .card:hover{
     box-shadow: 0 8px 16px rgba(0, 0, 0, 0.25);
     transition: .4s;
-}
+}.now .card-time,
 .card:hover .card-time{
     color: var(--second-color);
     transition: .4s;
