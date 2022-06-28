@@ -113,7 +113,7 @@ h3{
     flex-shrink: 0;
     flex-basis: 240px; */
     flex: 1 0 240px;
-
+    transition: .4s;
     max-width: 300px;/* 최대 너비: 300px */
 }
 .now,
@@ -125,6 +125,9 @@ h3{
     color: var(--second-color);
     transition: .4s;
 }
+/* .card .card-time{
+    transition: .4s;
+} */
 .card-image{
     background: url("../img/plate_crop.PNG") center center;/* 가운데를 중심으로 확대/축소 */
     background-size: cover;/* 배경을 꽉차게 */
